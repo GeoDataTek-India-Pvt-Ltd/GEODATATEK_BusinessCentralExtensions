@@ -1,7 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
+  "appFolders": [
+    "GEODATATEK.Extensions"
+  ],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "defaultBuildConfiguration": "Release",
+  "deliveryTargets": [
+    {
+      "id": "development",
+      "name": "Development",
+      "EnvironmentType": "Dev",
+      "AutoDeploy": false
+    },
+    {
+      "id": "sandbox-504711835",
+      "name": "Sandbox-504711835",
+      "EnvironmentType": "SaaS",
+      "AutoDeploy": true
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "EnvironmentType": "SaaS",
+      "AutoDeploy": false
+    }
+  ]
 }
