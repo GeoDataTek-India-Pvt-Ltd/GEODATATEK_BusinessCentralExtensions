@@ -1,7 +1,7 @@
 {
   "country": "us",
   "appName": "MyNewBCApp",
-  "environments": ["Production", "Development", "SandBox-250417101835", "Sandbox"],
+  "environments": ["Production", "Development", "SandBox-250417101835", "test"],
   "type": "PTE",
   "runs-on": "windows-latest",
   "deployToDevelopment": { "environmentName": "Development" },
