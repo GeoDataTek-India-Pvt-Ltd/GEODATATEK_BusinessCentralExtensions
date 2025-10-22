@@ -1,9 +1,8 @@
 {
   "country": "us",
   "appName": "BCDEMO",
-  "environments": ["Production", "Development", "SandBox-250417101835", "test"],
+  "environments": ["Development"],
   "type": "PTE",
   "runs-on": "windows-latest",
   "deployToDevelopment": { "environmentName": "Development" },
-  "deployToProduction": { "environmentName": "Production" }
 }
